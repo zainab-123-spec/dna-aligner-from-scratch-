@@ -1,0 +1,31 @@
+{
+  "cases": 3000,
+  "agree": 3000,
+  "by_category": {
+    "global/DNA/affine": {
+      "agree": 555,
+      "total": 555
+    },
+    "global/DNA/linear": {
+      "agree": 542,
+      "total": 542
+    },
+    "global/protein-BLOSUM62/affine": {
+      "agree": 387,
+      "total": 387
+    },
+    "local/DNA/affine": {
+      "agree": 592,
+      "total": 592
+    },
+    "local/DNA/linear": {
+      "agree": 553,
+      "total": 553
+    },
+    "local/protein-BLOSUM62/affine": {
+      "agree": 371,
+      "total": 371
+    }
+  },
+  "mismatch_examples": []
+}

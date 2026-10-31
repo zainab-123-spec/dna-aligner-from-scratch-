@@ -1,0 +1,99 @@
+{
+  "reference": "NC_045512.2",
+  "reference_bp": 29903,
+  "read_length": 150,
+  "k": 15,
+  "band": 16,
+  "tolerance_bp": 10,
+  "python": "3.13.5",
+  "machine": "x86_64",
+  "mapper": [
+    {
+      "error_rate": 0.0,
+      "reads": 2000,
+      "mapped_pct": 100.0,
+      "correct_pct": 100.0,
+      "precision_pct": 100.0,
+      "seconds": 10.41,
+      "reads_per_sec": 192.1,
+      "index_seconds": 0.019
+    },
+    {
+      "error_rate": 0.01,
+      "reads": 2000,
+      "mapped_pct": 100.0,
+      "correct_pct": 100.0,
+      "precision_pct": 100.0,
+      "seconds": 10.21,
+      "reads_per_sec": 196.0,
+      "index_seconds": 0.019
+    },
+    {
+      "error_rate": 0.02,
+      "reads": 2000,
+      "mapped_pct": 100.0,
+      "correct_pct": 100.0,
+      "precision_pct": 100.0,
+      "seconds": 10.12,
+      "reads_per_sec": 197.7,
+      "index_seconds": 0.019
+    },
+    {
+      "error_rate": 0.05,
+      "reads": 2000,
+      "mapped_pct": 100.0,
+      "correct_pct": 100.0,
+      "precision_pct": 100.0,
+      "seconds": 9.86,
+      "reads_per_sec": 202.8,
+      "index_seconds": 0.019
+    },
+    {
+      "error_rate": 0.1,
+      "reads": 2000,
+      "mapped_pct": 99.3,
+      "correct_pct": 99.3,
+      "precision_pct": 100.0,
+      "seconds": 10.03,
+      "reads_per_sec": 199.4,
+      "index_seconds": 0.019
+    },
+    {
+      "error_rate": 0.15,
+      "reads": 2000,
+      "mapped_pct": 90.45,
+      "correct_pct": 90.45,
+      "precision_pct": 100.0,
+      "seconds": 8.95,
+      "reads_per_sec": 223.4,
+      "index_seconds": 0.019
+    }
+  ],
+  "dp_scaling": [
+    {
+      "n": 100,
+      "cells": 10201,
+      "seconds": 0.0082
+    },
+    {
+      "n": 200,
+      "cells": 40401,
+      "seconds": 0.0311
+    },
+    {
+      "n": 400,
+      "cells": 160801,
+      "seconds": 0.1368
+    },
+    {
+      "n": 800,
+      "cells": 641601,
+      "seconds": 0.587
+    },
+    {
+      "n": 1600,
+      "cells": 2563201,
+      "seconds": 2.5523
+    }
+  ]
+}
