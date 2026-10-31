@@ -1,0 +1,6 @@
+# The dnaalign package itself has NO third-party dependencies (pure Python).
+# These are only for tests, linting, validation and figures:
+pytest>=7
+ruff>=0.4
+biopython>=1.80
+matplotlib>=3.6

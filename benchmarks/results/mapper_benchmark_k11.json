@@ -1,0 +1,49 @@
+{
+  "reference": "NC_045512.2",
+  "reference_bp": 29903,
+  "read_length": 150,
+  "k": 11,
+  "band": 16,
+  "tolerance_bp": 10,
+  "python": "3.13.5",
+  "machine": "x86_64",
+  "mapper": [
+    {
+      "error_rate": 0.05,
+      "reads": 2000,
+      "mapped_pct": 100.0,
+      "correct_pct": 100.0,
+      "precision_pct": 100.0,
+      "seconds": 34.97,
+      "reads_per_sec": 57.2,
+      "index_seconds": 0.017
+    },
+    {
+      "error_rate": 0.1,
+      "reads": 2000,
+      "mapped_pct": 100.0,
+      "correct_pct": 100.0,
+      "precision_pct": 100.0,
+      "seconds": 33.46,
+      "reads_per_sec": 59.8,
+      "index_seconds": 0.017
+    },
+    {
+      "error_rate": 0.15,
+      "reads": 2000,
+      "mapped_pct": 99.5,
+      "correct_pct": 99.5,
+      "precision_pct": 100.0,
+      "seconds": 33.48,
+      "reads_per_sec": 59.7,
+      "index_seconds": 0.017
+    }
+  ],
+  "dp_scaling": [
+    {
+      "n": 100,
+      "cells": 10201,
+      "seconds": 0.0087
+    }
+  ]
+}
