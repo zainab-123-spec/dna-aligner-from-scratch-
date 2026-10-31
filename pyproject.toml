@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dnaalign"
+version = "0.1.0"
+description = "Needleman-Wunsch, Smith-Waterman (affine gaps), a k-mer index and a seed-and-extend read mapper, written from scratch in Python."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Zainab Javed" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4", "biopython>=1.80"]
+bench = ["biopython>=1.80", "matplotlib>=3.6"]
+
+[project.scripts]
+dnaalign = "dnaalign.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dnaalign = ["data/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "src"]
+addopts = "--doctest-modules -q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E741", "B905"]
