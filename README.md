@@ -1,6 +1,6 @@
 # dna-aligner-from-scratch
 
-[![tests](https://github.com/zainab-123-spec/dna-aligner-from-scratch/actions/workflows/tests.yml/badge.svg)](https://github.com/zainab-123-spec/dna-aligner-from-scratch/actions/workflows/tests.yml)
+[![tests](https://github.com/zainab-123-spec/dna-aligner-from-scratch-/actions/workflows/tests.yml/badge.svg)](https://github.com/zainab-123-spec/dna-aligner-from-scratch-/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
@@ -61,8 +61,8 @@ Doubling n multiplies the time by ~4, exactly as O(n·m) predicts.
 ## Install and use
 
 ```bash
-git clone https://github.com/zainab-123-spec/dna-aligner-from-scratch
-cd dna-aligner-from-scratch
+git clone https://github.com/zainab-123-spec/dna-aligner-from-scratch-
+cd dna-aligner-from-scratch-
 pip install -e ".[dev]"      # package has no deps; dev = pytest, ruff, biopython
 pytest                        # run the test suite
 ```
